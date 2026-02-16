@@ -1,0 +1,146 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║        CONSÓRCIO ROSANE MACHADO - VEÍCULOS E MOTOS                          ║
+║              Instruções de Uso e Personalização                             ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+✅ SITE CRIADO E PRONTO PARA USAR!
+
+Este é um site profissional de consórcio de veículos com:
+- Design em tons neutros sofisticados
+- Sistema de simulação com formulário completo
+- Validação de CPF
+- Integração com WhatsApp
+- Modal de política de privacidade
+- Link para loja de motos no Instagram
+- Responsividade total (mobile, tablet, desktop)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 COMO ABRIR O SITE
+
+1. Vá até a pasta: c:\Users\karin\OneDrive\Anexos\Desktop\Consorcio
+2. Clique 2x em: index.html
+3. O site abrirá no seu navegador padrão
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚙️ PERSONALIZAR INFORMAÇÕES - EDITOR DE TEXTO
+
+Use qualquer editor (Notepad, VS Code, Notepad++):
+
+1️⃣ ALTERAR TELEFONE DO WHATSAPP
+   Arquivo: script.js (linha 2)
+   
+   Atual: const PHONE = '5543998721117';
+   Mude: const PHONE = 'seu número aqui';
+   
+   Formato: 55 + DDD + número (sem traços nem espaços)
+   Exemplo: 5543998721117
+
+2️⃣ ALTERAR LINK DO INSTAGRAM
+   Arquivo: index.html (procure por "gordinmotosmultimarcas")
+   
+   Locais a substituir:
+   - Seção "Nossas Motos" 
+   - Footer (rodapé)
+   
+   Novo link: https://www.instagram.com/seu_usuario
+
+3️⃣ ALTERAR TEXTOS GERAIS
+   Arquivo: index.html
+   
+   Você pode editar diretamente no HTML:
+   - Títulos de seções
+   - Descrições dos benefícios
+   - Textos do formulário
+   - Mensagens de footer
+
+4️⃣ ALTERAR CORES
+   Arquivo: styles.css (primeiras linhas)
+   
+   Seção :root contém as cores principais:
+   --primary-color: #6B5B4F;     (marrom - cor principal)
+   --secondary-color: #A89F8F;   (marrom claro)
+   --light-color: #F5F3F0;       (bege claro)
+   
+   Use o código HEX de outras cores em: https://htmlcolorcodes.com
+
+5️⃣ ALTERAR ÍCONES
+   Os ícones estão em Font Awesome
+   Biblioteca: https://fontawesome.com/icons
+   
+   Exemplo:
+   <i class="fas fa-motorcycle"></i>  (moto atual)
+   <i class="fas fa-dollar-sign"></i> (dinheiro)
+   <i class="fas fa-credit-card"></i> (cartão)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📱 SEÇÕES DO SITE
+
+1. HEADER - Menu de navegação
+2. HERO - Apresentação com botão "Fazer Simulação"
+3. BENEFÍCIOS - 4 cards com vantagens (moto, dinheiro, cartão, explicação)
+4. COMO FUNCIONA - Passo a passo do processo (4 etapas)
+5. FORMULÁRIO - Coleta dados e envia via WhatsApp
+6. LOJA DE MOTOS - Link para Instagram
+7. CHAMADA FINAL - Invite clientes para participar
+8. FOOTER - Contato e informações importantes
+9. BOTÃO WHATSAPP - Flutuante no canto inferior direito
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔧 ARQUIVOS DO PROJETO
+
+📄 index.html      - Estrutura e conteúdo do site
+🎨 styles.css     - Estilos, cores e responsividade
+⚙️  script.js      - Lógica JavaScript (validações, WhatsApp)
+📋 README.md       - Documentação
+📌 IMPORTANTE.txt -
+
+🔧 ARQUIVOS DO PROJETO
+
+📄 index.html      - Estrutura e conteúdo do site
+🎨 styles.css     - Estilos, cores e responsividade
+⚙️  script.js      - Lógica JavaScript (validações, WhatsApp)
+📋 README.md       - Documentação completa
+📌 IMPORTANTE.txt  - Este arquivo
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✨ PRINCIPAIS FEATURES
+
+✅ Design profissional em tons neutros
+✅ Totalmente responsivo (mobile, tablet, desktop)
+✅ Formulário com validação de CPF
+✅ Máscaras automáticas de telefone e CPF
+✅ Modal de política de privacidade
+✅ Integração com WhatsApp
+✅ Botão WhatsApp flutuante
+✅ Link para loja de motos no Instagram
+✅ Navegação suave com ícones
+✅ Ícones de motos, dinheiro e cartão de crédito
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 DICAS IMPORTANTES
+
+✓ Sempre guarde backup dos arquivos originais
+✓ Use editor de texto (Notepad++, VS Code) para editar
+✓ Teste no arquivo local antes de publicar online
+✓ Verifique em dispositivos mobile
+✓ Teste todos os links e formulários
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 INFORMAÇÕES DE CONTATO
+
+Nome: Rosane Machado
+Telefone: (43) 99872-1117
+Loja de Motos: https://www.instagram.com/gordinmotosmultimarcas?igsh=cjBva2RyNmZxeXZh
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Desenvolvido com ❤️ para Consórcio Rosane Machado
+Data: 16/02/2026
+

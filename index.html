@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consórcio Rosane Machado - Veículos e Motos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Modal de Privacidade -->
+    <div id="privacyModal" class="modal-overlay">
+        <div class="modal-content">
+            <h2>Política de Privacidade</h2>
+            <div class="modal-body">
+                <p>Ao prosseguir, você concorda que seus dados serão utilizados apenas para contato referente à simulação de consórcio.</p>
+                <p>Seus dados pessoais serão tratados com segurança e confidencialidade, em conformidade com a Lei Geral de Proteção de Dados (LGPD).</p>
+                <p>Não compartilhamos informações com terceiros sem sua autorização expressa.</p>
+            </div>
+            <div class="modal-buttons">
+                <button id="declineBtn" class="btn-secondary">Recusar</button>
+                <button id="acceptBtn" class="btn-primary">Concordo e Continuar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Botão WhatsApp Flutuante -->
+    <a href="#" id="whatsappBtn" class="whatsapp-button" title="Enviar mensagem via WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo-section">
+                <div class="logo-placeholder">
+                    <i class="fas fa-motorcycle"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>Consórcio Rosane Machado</h1>
+                    <p>Sua melhor escolha em consórcio de veículos</p>
+                </div>
+            </div>
+            <nav class="nav">
+                <a href="#home" class="nav-link active">Início</a>
+                <a href="#beneficios" class="nav-link">Benefícios</a>
+                <a href="#como-funciona" class="nav-link">Como Funciona</a>
+                <a href="#cadastro" class="nav-link">Simulação</a>
+                <a href="#motos" class="nav-link">Nossas Motos</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <div class="hero-badge">Consórcio Rosane Machado</div>
+            <h1>Realize o Sonho do Seu Veículo</h1>
+            <p class="hero-subtitle">As melhores taxas do mercado estão aqui</p>
+            <p class="hero-description">Transform your dreams into reality with our affordable vehicle financing solutions</p>
+            <div class="hero-buttons">
+                <a href="#cadastro" class="btn-primary btn-hero">Fazer Simulação Agora</a>
+                <a href="#beneficios" class="btn-secondary btn-hero">Conheça os Benefícios</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">1000+</span>
+                    <span class="stat-label">Clientes Satisfeitos</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">15+</span>
+                    <span class="stat-label">Anos de Experiência</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">Melhores</span>
+                    <span class="stat-label">Taxas do Mercado</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefícios -->
+    <section id="beneficios" class="beneficios">
+        <div class="container">
+            <h2 class="section-title">Por Que Escolher Nosso Consórcio?</h2>
+            <div class="beneficios-grid">
+                <div class="beneficio-card">
+                    <i class="fas fa-motorcycle"></i>
+                    <h3>Veículos Variados</h3>
+                    <p>Acesso a uma ampla seleção de motos, carros e utilitários de qualidade</p>
+                </div>
+                <div class="beneficio-card">
+                    <i class="fas fa-dollar-sign"></i>
+                    <h3>Melhores Taxas</h3>
+                    <p>Temos as melhores taxas de consórcio de todo o mercado. Economia garantida!</p>
+                </div>
+                <div class="beneficio-card">
+                    <i class="fas fa-credit-card"></i>
+                    <h3>Parcelamento Flexível</h3>
+                    <p>Escolha o melhor plano de pagamento de acordo com sua possibilidade financeira</p>
+                </div>
+                <div class="beneficio-card">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Mude Sua Vida</h3>
+                    <p>Transforme seu futuro com o consórcio. Saia do sonho para a realidade</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Como Funciona -->
+    <section id="como-funciona" class="como-funciona">
+        <div class="container">
+            <h2 class="section-title">Como Funciona o Consórcio?</h2>
+            <div class="funciona-content">
+                <div class="funciona-item">
+                    <div class="funciona-numero">1</div>
+                    <h3>Cadastro Simples</h3>
+                    <p>Faça seu cadastro rápido e fácil em nossa plataforma com seus dados básicos</p>
+                </div>
+                <div class="funciona-item">
+                    <div class="funciona-numero">2</div>
+                    <h3>Escolha o Veículo</h3>
+                    <p>Selecione entre as opções de motos, carros e utilitários disponíveis</p>
+                </div>
+                <div class="funciona-item">
+                    <div class="funciona-numero">3</div>
+                    <h3>Aprovação Rápida</h3>
+                    <p>Análise ágil e aprovação em poucas horas para começar sua jornada</p>
+                </div>
+                <div class="funciona-item">
+                    <div class="funciona-numero">4</div>
+                    <h3>Parcele com Segurança</h3>
+                    <p>Pague em parcelas que cabem no seu bolso com total segurança</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulário de Cadastro -->
+    <section id="cadastro" class="cadastro">
+        <div class="container">
+            <h2 class="section-title">Faça Sua Simulação Agora</h2>
+            <form class="formulario-cadastro" id="formCadastro">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="nome">Nome Completo *</label>
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefone">Telefone *</label>
+                        <input type="tel" id="telefone" name="telefone" placeholder="(43) 99872-1117" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="cpf">CPF *</label>
+                        <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="veiculo">Tipo de Veículo *</label>
+                        <select id="veiculo" name="veiculo" required>
+                            <option value="">Selecione um tipo</option>
+                            <option value="moto">Moto</option>
+                            <option value="carro">Carro</option>
+                            <option value="utilitario">Utilitário</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="valor">Valor Desejado (R$) *</label>
+                        <input type="number" id="valor" name="valor" placeholder="Ex: 30000" min="0" step="100" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="meses">Número de Parcelas *</label>
+                        <select id="meses" name="meses" required>
+                            <option value="">Selecione</option>
+                            <option value="12">12 meses</option>
+                            <option value="24">24 meses</option>
+                            <option value="36">36 meses</option>
+                            <option value="48">48 meses</option>
+                            <option value="60">60 meses</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group checkbox">
+                    <input type="checkbox" id="privacidade" name="privacidade" required>
+                    <label for="privacidade">Concordo com a <strong>Política de Privacidade</strong> e autorizo contato via WhatsApp</label>
+                </div>
+
+                <button type="submit" class="btn-primary">Continuar para o WhatsApp</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Seção de Motos -->
+    <section id="motos" class="motos">
+        <div class="container">
+            <h2 class="section-title">Conheça Nossa Loja de Motos</h2>
+            <div class="motos-content">
+                <p>Complementando nosso serviço de consórcio, temos uma loja especializada em motos com as melhores marcas do mercado!</p>
+                <a href="https://www.instagram.com/gordinmotosmultimarcas?igsh=cjBva2RyNmZxeXZh" target="_blank" class="btn-instagram">
+                    <i class="fab fa-instagram"></i> Visite Nossa Loja no Instagram
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chamada para Ação Final -->
+    <section class="chamada-final">
+        <div class="container">
+            <h2>Faça Parte Dessa Jornada de Transformação</h2>
+            <p>Não espere mais! Realize o seu sonho com o consórcio de qualidade da Rosane Machado. Com as melhores taxas do mercado, seu veículo está mais perto do que nunca!</p>
+            <a href="#cadastro" class="btn-primary btn-large">Começar Simulação Agora</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Consórcio Rosane Machado</h4>
+                    <p>Sua melhor opção para realizar o sonho do seu veículo com as melhores taxas do mercado.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p><i class="fas fa-phone"></i> (43) 99872-1117</p>
+                    <p><a href="https://www.instagram.com/gordinmotosmultimarcas?igsh=cjBva2RyNmZxeXZh" target="_blank">
+                        <i class="fab fa-instagram"></i> Loja de Motos
+                    </a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#beneficios">Benefícios</a></li>
+                        <li><a href="#como-funciona">Como Funciona</a></li>
+                        <li><a href="#cadastro">Simulação</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Consórcio Rosane Machado. Todos os direitos reservados.</p>
+                <p>Desenvolvido com segurança e qualidade para você</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
